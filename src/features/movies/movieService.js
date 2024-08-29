@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'http://localhost:5000/api/v1/movies/'
+const API_URL = 'https://movie-catalog-api-pk5p.onrender.com/api/v1/movies/'
 
 const getAllMovies = async () => {
   const response = await axios.get(API_URL)

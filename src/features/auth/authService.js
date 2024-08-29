@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API_URL = 'http://localhost:5000/api/v1/'
+const API_URL = 'https://movie-catalog-api-pk5p.onrender.com/api/v1/'
 
 const register = async (userData) => {
   const response = await axios.post(API_URL + 'register', userData)
